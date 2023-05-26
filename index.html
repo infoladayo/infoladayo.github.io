@@ -1,0 +1,229 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Oladayo Olatubosun's Portfolio</title>
+		<style>
+
+
+	
+			.slideshow-container .slide {
+
+				animation: fade-in 3s infinite;
+			}
+	
+			@keyframes fade-in {
+				0% {
+					opacity: 0;
+				}
+				50% {
+					opacity: 1;
+				}
+				100% {
+					opacity: 0;
+				}
+			}
+		</style>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Oladayo B.<br />
+						Olatubosun</h1>
+						<h5>python || SQL || PLSQL || VS code || oracle || SAS || tableau || access || excel || coreldraw || photoshop</h5>
+						
+						<p>is a decorated Research Biostatistician.</p>
+
+						<p>His future research aims to inform how genomic sequencing can provide humanity with patient-centered, evidence-based clinical treatments.<br /></p>
+						<ul class="actions">
+							<!--<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>-->
+						</ul>
+					</div>
+
+				<!-- Header 
+					<header id="header">
+						<a href="index.html" class="logo">learn more</a>
+					</header>-->
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Portfolio</a></li>
+							<li><a href="generic.html">Resume</a></li>
+							<li><a href="elements.html">COver Letter</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/daewoorazer2001?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BFrmdjcijSwi%2B1FU7aZr5zQ%3D%3D" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/daewoorazer2001" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<span class="date">awards</span>
+									<!--<h2><a href="#">Awards<br /></a></h2>-->
+								</header>
+						
+								<div class="slideshow-container">
+									<ul class="slides">
+										<li class="slide">
+											<a href="#" class="image main"><img src="images/AcademicAward.png" alt="" /></a>
+										</li>
+										<li class="slide">
+											<a href="#" class="image main"><img src="images/ClinicalAward.png" alt="" /></a>
+										</li>
+									</ul>
+								</div>
+							</article>
+						
+							<script>
+								var slideIndex = 0;
+								showSlides();
+						
+								function showSlides() {
+									var slides = document.getElementsByClassName("slide");
+									for (var i = 0; i < slides.length; i++) {
+										slides[i].style.display = "none";
+									}
+									slideIndex++;
+									if (slideIndex > slides.length) {
+										slideIndex = 1;
+									}
+									slides[slideIndex - 1].style.display = "block";
+									setTimeout(showSlides, 3000); // Change slide every 3 seconds
+								}
+							</script>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h3><a href="#">US States Facemask Mandate<br />
+										was ineffective against COVID19 transmission, data shows.</a></h3>
+									</header>
+									<a href="#" class="image fit"><img src="images/covid.png" alt="" /></a>
+									<p>The role of demographics, underlying clinical conditions, and governmental policies during the COVID19 Pandemic.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/daewoorazer2001/How-Demographics-Comorbidities-and-Government-influenced-COVID19" class="button">...learn more</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h3><a href="#">Genotype Calculator;<br />
+										provides users with evidence-based knowledge on genotype, blood group and rhesus.</a></h3>
+									</header>
+									<a href="#" class="image fit"><img src="images/GenotypeCompatibility.png" alt="" /></a>
+									<p>This app was developed based on the striking findings of a project which investigated prevalence of Sickle Cell Disease and Hemolytic Jaundice in newborns. Kivy module of python was used for this interface.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/daewoorazer2001/Genotype-Compatibility-calculator" class="button">...learn more</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h3><a href="#">Interface Improvement<br />
+										based on theories of human-computer interaction to reduce user's mental load.</a></h3>
+									</header>
+									<a href="#" class="image fit"><img src="images/PrescriptionAxure.png" alt="" /></a>
+									<p>A poorly designed interface can increase mental load of employees; with other latent factors such as unprofessional supervision, adverse events like low productivity, life-threatening errors are inevitable in such working environments. This process may repeat daily in a model referred to as the SWISS CHEESE.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/daewoorazer2001/Improving-a-Prescription-Medication-App" class="button">...learn more</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h3>Application interface to predict stroke mortality based on comorbidities<a href="#">
+										</a></h3>
+									</header>
+									<a href="#" class="image fit"><img src="images/Stroke.png" alt="" /></a>
+									<p>Investigated Comorbidities as they predict Stroke Mortality in New York City. Predictive analysis involved three independent variables: obesity, diabetes and patient smoking status. Tkinter module of python was used for interface development.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">...learn more</a></li>
+									</ul>
+								</article>
+								
+							</section>
+
+
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form action="mailto: daewoorazer2001@gmail.com" method="post" enctype="text/plain">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>Brooklyn, NY, USA</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(929) 578-0125</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">oladayo.olatubosun@downstate.edu</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/daewoorazer2001?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BFrmdjcijSwi%2B1FU7aZr5zQ%3D%3D" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/daewoorazer2001" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; infoladayo2023</li><li>Design: <a href="https://html5up.net">infoladayo</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
